@@ -5,7 +5,7 @@ echo "-py to run python code,"
 echo "*py to run a python file,"
 echo "and exit to exit."
 while true; do
-    read -r -e "input?>> "
+    read -r -e "input?> "
     if [[ "$input" == "exit" ]]; then
         break
     elif [[ "$input" == "-py" ]]; then
