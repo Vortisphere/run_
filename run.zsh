@@ -27,9 +27,10 @@ while true; do
             python3 "$filer"
         fi
     elif [[ "$input" == "src" ]]; then
-        echo "zsh code:\n\n\n\n\n"
+        echo "code:\n\n\n\n\n"
         cat "/usr/local/bin/run"
         echo "\n\n\npath:\n/usr/local/bin/run"
+        cd
     else
         eval "$input"
     fi
